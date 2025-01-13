@@ -1,0 +1,74 @@
+.jumbotron{
+    background-color: #045951;
+    padding:2rem 3rem;
+    display:flex;
+    flex-direction: row;
+    color: white;
+    border-radius: 0px;
+}
+.jumbotron img{
+    width: 500px;
+}
+.bg-custom{
+    background-color: #045951;
+}
+.nav-link,.navbar-brand{
+    color: white;
+}
+.navbar-text a{
+    color: white;
+}
+#brandcolor{
+    color: #045951;
+}
+#about p{
+    text-align: justify;
+    user-select: none;
+}
+#about img{
+    user-select: none;
+}
+#product #product_icons{
+    width: 30px;
+
+}
+#product #product_icons img{
+    background-color: #045951;
+    margin: 5px 0px;
+    padding: 5px;
+}
+#product_icons{
+    position: absolute;
+    top: 25px;
+    opacity: 0;
+    transition: opacity 0.9s;
+    cursor: pointer;
+}
+#product .card:hover #product_icons{
+    opacity: 1;
+}
+#addtocart{
+    width:45px;
+    float:right;
+}
+.slider{
+    display: flex;
+    align-items: center;
+}
+.slider img{
+    width: 300px;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 250px;
+    background-color: #045951;
+    color: white;
+}
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
